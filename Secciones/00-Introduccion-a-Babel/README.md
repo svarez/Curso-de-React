@@ -1,3 +1,5 @@
+# Introducción a Babel
+
 [Babel](http://babeljs.io/) es una herramienta que nos permite transformar nuestro código JS de última generación (o con funcionalidades extras) a un código de Javascript que cualquier navegador o versión de Node.js pueda entender.
 
 Babel funciona mediante plugins para que le indiquemos que cosas queremos que transforme, por ejemplo con el plugin [babel-plugin-transform-es2015-arrow-functions](https://www.npmjs.com/package/babel-plugin-transform-es2015-arrow-functions) podemos decirle que transforme las arrow functions de ECMAScript 2015 a funciones normales, con [babel-plugin-transform-react-jsx](https://www.npmjs.com/package/babel-plugin-transform-react-jsx) podemos hacer que entienda código de JSX y lo convierta a código JS normal.
